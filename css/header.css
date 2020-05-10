@@ -1,0 +1,109 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background: white;
+}
+
+.bg {
+    width: 100%;
+    min-height: 100%;
+}
+
+.header {
+	width: 100%;
+	position: relative;
+	z-index: 0;
+	display: block;
+}
+
+.main {
+	width: 1000px;
+	padding: 0;
+	margin: 0 auto;
+
+}
+
+div {
+	display: block;
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+h1>img {
+	width: 230px;
+	height: 135px;
+	float: left;
+}
+
+.navbar {
+	display: block;
+	list-style: none;
+	font-size: 18px;
+	float: right;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+nav>div>ul>li {
+	float: left;
+	padding-right: 25px;
+}
+
+
+
+li>a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Athiti', sans-serif;
+}
+
+li>a:hover {
+	color: #3385ff;
+}
+
+.nav-content {
+	position: absolute;
+	top: 70px;
+	width: 220px;
+	overflow: hidden;
+	background: white;
+	max-height: 0px;
+}
+
+.nav-content a {
+	color: black;
+	text-decoration: none;
+}
+
+.nav-sub {
+	padding: 10px;
+}
+
+.nav-sub>ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.nav-sub>ul>li {
+	display: inline-block;
+
+}
+
+.nav-item:focus {
+	background-color: white;
+}
+
+.nav-item:focus ~ .nav-content {
+	max-height: 400px;
+	-webkit-transition: max-height 0.4s ease-in;
+	-moz-transition: max-height 0.4s ease-in;
+	transition: max-height 0.4s ease-in;
+}
+
